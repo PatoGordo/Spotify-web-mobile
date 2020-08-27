@@ -1,0 +1,74 @@
+* {
+  font-family: "Segoe UI"; /* All font to the web site */
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  /* Main body config  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /*Display Config*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .img,
+.container .button {
+  border-radius: 10px;
+}
+.container .button {
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  background-color: #4275b4;
+  color: white;
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  color: white;
+}
+.content .headercontent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.content .headercontent i {
+  font-size: 25px;
+  margin: 8px;
+}
+.content h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.content .homeitem {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.content .homeitem img {
+  width: 135px;
+}
+.content .homeitem p {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 8px;
+}
+.content .recents {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
